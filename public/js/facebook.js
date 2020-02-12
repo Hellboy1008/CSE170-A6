@@ -16,10 +16,11 @@ function statusChangeCallback(response) {
 }
 
 function addUser(response) {
+    $(".user-name").text(response.name);
     localStorage["user-name"] = response.name;
     console.log(response.name);
 }
 
 function loginSuccessful() {
-    //window.location.href = '/home';
+    window.location.href = '/home';
 }

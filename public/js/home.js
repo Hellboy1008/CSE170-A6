@@ -1,5 +1,5 @@
 name = localStorage["user-name"];
-console.log(name);
+$.ajax({ url: '/', success: function(data) { console.log(data); } });
 
 $(window).on("load", function() {
     $('.user-name').text('Welcome back, ');
