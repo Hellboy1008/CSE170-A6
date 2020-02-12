@@ -22,5 +22,5 @@ function addUser(response) {
 }
 
 function loginSuccessful() {
-    //window.location.href = '/home';
+    window.location.href = '/home';
 }
