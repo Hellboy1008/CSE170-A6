@@ -16,7 +16,7 @@ function statusChangeCallback(response) {
 }
 
 function addUser(response) {
-    localStorage.setItem('user-name', response.name);
+    sessionStorage.setItem('user-name', response.name);
     console.log(response.name);
 }
 

@@ -1,4 +1,4 @@
-name = localStorage.getItem('user-name');
+name = sessionStorage.getItem('user-name');
 console.log(name);
 
 $(window).on("load", function() {
