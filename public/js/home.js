@@ -1,5 +1,5 @@
-name = localStorage["user-name"];
-$.ajax({ url: '/', success: function(data) { console.log(data); } });
+name = localStorage.getItem('user-name');
+console.log(name);
 
 $(window).on("load", function() {
     $('.user-name').text('Welcome back, ');
